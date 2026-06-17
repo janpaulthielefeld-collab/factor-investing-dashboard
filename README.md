@@ -1,4 +1,3 @@
-
 # Factor Investing Dashboard
 
 ## Overview
@@ -79,13 +78,3 @@ The objective is to simulate how institutional asset managers and quantitative i
 ## Resume Description
 
 Built a quantitative factor investing dashboard in Python using Yahoo Finance data. Developed factor models based on momentum, value, quality, and risk metrics, engineered financial features, constructed a composite ranking system, and analyzed portfolio performance through interactive visualizations.
-
-## Outputs
-- Factor ranking table
-- Top stock list
-- Portfolio performance summary
-- Interactive charts
-- CSV exports
-
-## Resume Description
-Built a factor investing dashboard in Python using Yahoo Finance data to rank equities based on momentum, value, quality, and risk factors. Engineered financial features, normalized factor scores, constructed a composite ranking model, simulated an equal-weighted factor portfolio, and visualized performance using professional dashboards.
