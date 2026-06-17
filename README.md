@@ -2,30 +2,83 @@
 # Factor Investing Dashboard
 
 ## Overview
-This project builds a quantitative factor investing dashboard using Python and Yahoo Finance data.
 
-The model ranks stocks based on:
-- Momentum
-- Value
-- Quality
-- Risk
+This project implements a quantitative factor investing framework using Python and Yahoo Finance data.
+
+Stocks are ranked using four core factors:
+
+* Momentum
+* Value
+* Quality
+* Risk
+
+The objective is to simulate how institutional asset managers and quantitative investment firms systematically evaluate securities.
+
+---
 
 ## Features
-- Downloads historical market data
-- Collects fundamental data
-- Engineers factor features
-- Calculates normalized factor scores
-- Builds a composite ranking model
-- Simulates an equal-weighted portfolio
-- Visualizes factor exposure and performance
+
+* Historical market data collection
+* Fundamental data analysis
+* Factor score generation
+* Composite stock ranking model
+* Portfolio construction
+* Performance analytics
+* Interactive visualizations
+
+---
 
 ## Technologies
-- Python
-- pandas
-- numpy
-- yfinance
-- plotly
-- scipy
+
+* Python
+* Pandas
+* NumPy
+* Yahoo Finance API
+* Plotly
+* SciPy
+
+---
+
+## Factors
+
+### Momentum
+
+* 3-Month Return
+* 6-Month Return
+* 12-Month Return
+
+### Value
+
+* Price-to-Earnings Ratio
+* Price-to-Book Ratio
+
+### Quality
+
+* Return on Equity
+* Profit Margin
+* Debt-to-Equity
+
+### Risk
+
+* Volatility
+* Beta
+* Maximum Drawdown
+
+---
+
+## Outputs
+
+* Ranked stock universe
+* Factor scores
+* Portfolio performance metrics
+* Risk-return analysis
+* Interactive dashboard visualizations
+
+---
+
+## Resume Description
+
+Built a quantitative factor investing dashboard in Python using Yahoo Finance data. Developed factor models based on momentum, value, quality, and risk metrics, engineered financial features, constructed a composite ranking system, and analyzed portfolio performance through interactive visualizations.
 
 ## Outputs
 - Factor ranking table
